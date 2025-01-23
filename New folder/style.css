@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.input-matrix {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.input-matrix table {
+    margin: 10px auto;
+}
+
+.input-matrix input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    gap: 20px;
+}
+
+.image-box {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+canvas {
+    border: 1px solid #ddd;
+}

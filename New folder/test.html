@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2x2 Matrix Transformations in R^2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Visualizing 2x2 Matrix Transformations</h1>
+
+    <div class="input-matrix">
+        <h2>Enter the 2x2 Matrix:</h2>
+        <table>
+            <tr>
+                <td><input type="number" id="m11" value="1"></td>
+                <td><input type="number" id="m12" value="0"></td>
+            </tr>
+            <tr>
+                <td><input type="number" id="m21" value="0"></td>
+                <td><input type="number" id="m22" value="1"></td>
+            </tr>
+        </table>
+        <button id="transformButton">Apply Transformation</button>
+    </div>
+
+    <div class="image-container">
+        <div class="image-box">
+            <h3>Original Image</h3>
+            <canvas id="originalCanvas" width="300" height="300"></canvas>
+        </div>
+        <div class="image-box">
+            <h3>Transformed Image</h3>
+            <canvas id="transformedCanvas" width="300" height="300"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
